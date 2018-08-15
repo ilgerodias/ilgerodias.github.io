@@ -1,0 +1,59 @@
+html{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+body{
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+.siteStart {
+  background: url(bg4.jpg);
+  text-align: center;
+  height: 30vw;
+  vertical-align: middle;
+  padding: 10em;
+  background-position: center;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.siteStart:hover{
+  opacity: 0.7
+}
+
+.secondPart {
+  /*Photo by Sebastian Muller on Unsplash*/
+  background: url(bg2.jpg);
+  text-align: center;
+  height: 30vw;
+  vertical-align: middle;
+  padding: 10em;
+  background-position: center;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secondPart:hover{
+  opacity: 0.7;
+}
+
+.textBoxes{
+  height: 10em;
+  font-family: serif;
+  font-size: 3em;
+  background-color: black;
+  color: white;
+}
