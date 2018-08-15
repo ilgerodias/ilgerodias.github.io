@@ -38,12 +38,11 @@ class SecondSection extends React.Component {
 
 class ThirdSection extends React.Component {
   render() {
-    return <div>
-  <div className="jumbotron jumbotron-fluid">
-      <div className="container">
+    return <div><a href="#">
+  <div className="container-fluid thirdPart">
     <h1 className="display-4">My Projects</h1>
-    </div>
   </div>
+  </a>
 </div>
   }
 }
