@@ -14,7 +14,7 @@ class FirstSection extends React.Component {
  }
   render() {
     return <div><a href="#">
-    <div className="container-fluid siteStart">
+    <div className="container siteStart">
         <h1><span
             style={{ whiteSpace: 'pre' }}
             ref={(el) => { this.el = el; }}
@@ -28,7 +28,7 @@ class FirstSection extends React.Component {
 class SecondSection extends React.Component {
   render() {
     return <div><a href="#">
-    <div className="container-fluid secondPart">
+    <div className="container secondPart">
       <h1 className="display-4">About Me</h1>
     </div>
     </a>
@@ -39,7 +39,7 @@ class SecondSection extends React.Component {
 class ThirdSection extends React.Component {
   render() {
     return <div><a href="#">
-  <div className="container-fluid thirdPart">
+  <div className="container thirdPart">
     <h1 className="display-4">My Projects</h1>
   </div>
   </a>

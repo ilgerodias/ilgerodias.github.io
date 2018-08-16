@@ -1,6 +1,6 @@
 html{
-  padding-left: 2em;
-  padding-right: 2em;
+  margin: 0;
+  padding: 0;
 }
 
 a{
@@ -12,11 +12,6 @@ a:hover{
   color: inherit;
 }
 
-body{
-  background: #fff;
-  margin: 0;
-  padding: 0;
-}
 .siteStart {
   background: url(bg4.jpg);
   text-align: center;
@@ -28,9 +23,12 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 2em 2em 2em 2em;
+  overflow: auto;
 }
 .siteStart:hover{
-  opacity: 0.7
+  opacity: 0.7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .secondPart {
@@ -45,9 +43,14 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 2em;
+  margin-right: inherit;
+  margin: 2em 2em 2em 2em;
+  overflow: auto;
 }
 .secondPart:hover{
   opacity: 0.7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .thirdPart{
   /* Photo by Anchor Lee on Unsplash */
@@ -61,9 +64,13 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 2em;
+  margin: 2em 2em 2em 2em;
+  overflow: auto;
 }
 .thirdPart:hover{
   opacity:0.7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .textBoxes{
   height: 10em;
