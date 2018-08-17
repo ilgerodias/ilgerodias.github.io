@@ -15,7 +15,7 @@ class FirstSection extends React.Component {
   render() {
     return <div><a href="#">
     <div className="container siteStart">
-        <h1><span
+        <h1 className="displayBoxText"><span
             style={{ whiteSpace: 'pre' }}
             ref={(el) => { this.el = el; }}
           /></h1>
